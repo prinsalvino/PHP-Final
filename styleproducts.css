@@ -1,0 +1,83 @@
+@charset "utf-8";
+
+*{
+    font-family: "Georgia Pro", Times New Roman, Times, serif;
+    font-size: medium;
+}
+body{
+    background-image: url("../imgrestaurant/checkout.jpg");
+
+}
+
+.col1{
+    padding-top: 50px;
+    float: left;
+}
+
+.col2{
+    padding-top: 50px;
+    float: right;
+}
+
+
+form{
+    margin-left: 25px;
+}
+.FoodCheckout{
+ background-image: url("../img/checkout.jpg");
+    color: #1E1E1E;
+    width: 100%;
+    background-size: cover;
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.Calculate{
+    
+    float: right;
+    background-color: white;
+    opacity: 0.9;
+    margin-right: 100px;
+    margin-top: 0 px;
+    width: 400px;
+}
+
+.submitbtn{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+
+    float: right;
+    margin-right: 100px;
+    width: 400px;
+    height: 50px;
+    margin-top: 20px;
+    clear: both;
+
+    background-color: greenyellow;
+}
+
+.opening{
+    font-size: large;
+    font-weight: bold;
+}
+
+
+.comments{
+    height: 100px;
+}
+
+.CalculateReservation{
+    margin-top: 15px;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+HTML::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE and Edge */
+  HTML {
+    -ms-overflow-style: none;
+  }

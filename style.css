@@ -1,0 +1,167 @@
+*{
+	font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+	  -ms-overflow-style: none;
+}
+/*hide scroll bar*/
+*::-webkit-scrollbar {
+  display: none;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: burlywood;
+}
+p{
+color: red;
+}
+
+.loginbox{
+    width: 300px;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: white;
+}
+.box{
+	 width: 300px;
+    color: white;
+	margin-left: 40%;
+}
+
+h1{
+    position: absolute;
+    top: 10%;
+    left: 45%;
+    color: white;
+    font-size: 40px;
+    border-bottom: 6px solid #4caf50;
+    margin-bottom: 50px;
+    padding: 13px 0;
+}
+
+.textbox{
+width: 100%;
+overflow: hidden;
+font-size: 15px;
+padding: 8px 0;
+margin: 8px 0;
+border-bottom: 1px solid greenyellow;
+}
+
+.btn{
+    width: 100%;
+    background: none;
+    border: 2px solid greenyellow;
+    color: white;
+    padding: 5px;
+    cursor: pointer;
+    margin: 12px 0;
+}
+
+.loginbtn{
+       border: 2px solid greenyellow;
+    margin: 12px 0;
+	text-align: center;
+padding: 5px;
+    cursor: pointer;
+	width: 300px;
+	font-size: 13px;
+	color: white;
+}
+
+a {
+    color: initial;
+}
+
+.navigbar{
+	border-top: 1px solid #FFF;
+    border-bottom: 1px solid #FFF;
+    font-size: 20px;
+    text-align: center;
+    width: 100%;
+    padding-top: 10px;
+}
+.gender{
+	width: 300px;
+	height: 25px;
+}
+
+a.translink {
+    color: #1E1E1E;
+    text-decoration: none;
+}
+
+a.navilink {
+    color: #1E1E1E;
+    text-decoration: none;
+    margin: 0px 50px;
+	text-align: center;	
+	font-size: 20px;
+}
+
+header ul li {
+    list-style: none;
+    display: inline;
+}
+
+a:hover {
+    color: #fff;
+}
+header{
+    border-bottom: 1px solid #000000;
+	align-content: center;
+}
+
+h2{
+	text-align: center;
+}
+
+.logoutbtn{
+	position: absolute;
+  top: 8px;
+  right: 16px;
+  font-size: 18px;
+}
+.rip{
+	position: absolute;
+	top: 50%;
+	left: 43%;
+}
+
+.List{
+	float: left;
+	padding-left: 50px;
+	padding-top: 25px;
+}
+
+.Search{
+	float: right;
+	padding-right: 50px;
+	padding-top: 25px;
+}
+
+.textboxsearchemail{
+	float: right;
+	width: 200px;
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+.btnsearch{
+	float: right;
+		margin-right: 15px;
+
+}
+
+.titleforPage{
+	text-align: center;
+	font-size: 30px;
+}
+
+.Profile{
+	text-align: center;
+}
